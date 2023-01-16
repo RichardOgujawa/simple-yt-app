@@ -1,0 +1,11 @@
+@tailwind components;
+
+
+@layer components {
+    .smallerText {
+        @apply text-slate-400 text-xs
+    }
+    .timeTag {
+        @apply absolute -mt-[1.35rem] text-slate-400 text-xs bg-col-neutral-900 rounded right-0 px-1 mx-2 
+    }
+}
