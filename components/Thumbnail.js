@@ -6,8 +6,7 @@ import {AiFillCheckCircle} from 'react-icons/ai'
 const Thumbnail = ({ contentSrc, imgSrc, channelSrc, title, channelName, views, date }) => {
   return (
     <>
-      <Link href={contentSrc ? contentSrc : 'https://send-anywhere.com/'}
-      >
+      <Link href={contentSrc ? contentSrc : 'https://send-anywhere.com/'}>
         <article className='grid place-content-center w-fit px-2 pt-2 pb-4 rounded-lg'>
           
           {/*Thumbnail Image*/}
